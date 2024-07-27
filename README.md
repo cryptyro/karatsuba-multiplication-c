@@ -15,4 +15,4 @@ The Karatsuba algorithm is a fast multiplication algorithm that uses a divide-an
 ## Compilation
 To compile & run:
 ```sh
-gcc -o main.c main && ./main
+gcc -o main main.c && ./main
