@@ -18,3 +18,4 @@ The Karatsuba algorithm is a fast multiplication algorithm that uses a divide-an
 To compile the example:
 gcc -o main.c main
 ./main
+\( O(n^{\log_{2}3}) \approx O(n^{1.58}) \
