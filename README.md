@@ -13,7 +13,6 @@ The Karatsuba algorithm is a fast multiplication algorithm that uses a divide-an
 - `input.txt`: A sample input for the Karatsuba algorithm.
 
 ## Compilation
-To compile the example:
+To compile & run:
 ```sh
-gcc -o main.c main
-./main
+gcc -o main.c main && ./main
