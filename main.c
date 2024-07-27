@@ -11,7 +11,7 @@ int main(){
     printf("Please enter the filename where the result is to be stored : ");
     scanf("%s", outfile);
     struct number num1, num2, result;
-	getInt(infile,&num1, &num2);
+    getInt(infile,&num1, &num2);
 	result= karatsuba(&num1,&num2);
 	printInt(result, outfile);
 	printf("Result has been written to %s \n", outfile);
